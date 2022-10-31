@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>People Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h4>Profile</h4>
+        <hr/>
+        
+        <p>Nama        :</p><p th:text="${namaP}"></p>
+        <p>Tgl Lahir   :</p> <p th:text="${tglP}"></p>
+        <p>Foto Anda   :</p> <img th:src="${ifoto}">
+    </body>
+</html>
